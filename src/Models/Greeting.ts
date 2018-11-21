@@ -2,9 +2,9 @@ import * as moment from 'moment-timezone';
 import { greetings } from '../assets/json-export';
 
 enum TimeOfDay {
-  morning = 'Morining',
-  afternoon = 'Afternoon',
-  evening = 'Evening'
+  morning = 'morining',
+  afternoon = 'mfternoon',
+  evening = 'evening'
 }
 
 export interface GreetingParams {
