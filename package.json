@@ -12,7 +12,8 @@
   "dependencies": {
     "@types/inquirer": "0.0.43",
     "inquirer": "^6.2.0",
-    "moment-timezone": "^0.5.23"
+    "moment-timezone": "^0.5.23",
+    "shelljs": "^0.8.3"
   },
   "devDependencies": {
     "eslint": "^5.9.0",

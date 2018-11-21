@@ -1,4 +1,5 @@
 import * as inquirer from 'inquirer';
+import * as shell from 'shelljs';
 
 import { companies, guests } from './assets/json-export';
 
@@ -14,6 +15,7 @@ class App {
 
 
   public start() {
+    this.resizeTerminal();
     this.runInquirer();
   }
 
@@ -154,6 +156,11 @@ class App {
         console.log(error)
         console.log('An Error has Occured');
       });
+  }
+
+  private resizeTerminal() {
+    console.clear();
+    shell.exec('bash resize.sh');
   }
 }
 
