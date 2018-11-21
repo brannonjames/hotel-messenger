@@ -113,7 +113,7 @@ class App {
         if (answer.message === 'Create Custom Message') {
           console.log(`
 
-          You can plug variables into your message @hotel, @firstName, @lastName, @roomNumber, timeOfDay
+          You can plug variables into your message @hotel, @firstName, @lastName, @roomNumber, @timeOfDay
 
           `);
           return inquirer.prompt([ customMessagePrompt ])
