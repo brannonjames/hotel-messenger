@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "typescript"
+  ],
+  "parser": "typescript-eslint-parser",
+  "plugins": [
+      "typescript"
+  ],
+  "rules": {
+    "no-console": 0,
+    "typescript/no-var-requires": 0
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "greeting1": "Good @timeOfDay @firstName, and welcome to @company! Room @roomNumber is now ready you. Enjoy your stay, and let us know if you need anything.",
+  "greeting2": "Thanks for choosing @company, @firstName! We hope your @timeOfDay is going well. Room @roomNumber is all ready for you, we're here for you!"
+}
